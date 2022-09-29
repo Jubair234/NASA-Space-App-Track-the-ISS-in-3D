@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('/');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .sun-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('/bg.jpg');
+    opacity: 1;
+  } 
+  .moon-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('/bg.jpg');
+    opacity: 0;
+  }
+  canvas {
+    position: relative;
+  }
+
+  #container {
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background:#0b1a2b;
+    z-index: 1000;
+    font-family: sans-serif;
+    color: #0b1a2b;
+    
+  }
+  
+
+.innerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.innerDiv h3{
+    background-color: aquamarine;
+    color: #0b1a2b;
+    padding: 13px 16px;
+    margin-top: -1px;
+    
+    
+    
+}
